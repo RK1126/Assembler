@@ -1,6 +1,5 @@
 # Building An Assembler
-
-Implemented basic functionality of An Assembler, Changing assembly code to machine code. 
+Implementation of the basic functionality of An Assembler, conversion of assembly code to machine code. 
 
 ## Details
 
@@ -23,8 +22,8 @@ Check for valid syntax and convert the assembly code to machine code.
 Collision handling strategy:- Separate Chaining
 
 #### class HTWrapper
-1.saveToFile(HashTable)--Save the hash table to a file for later use.
-2.loadFromFile(FILE*)--load a hash table previously stored in the input file
+1.saveToFile(filename, HashTable)--Save the hash table to a file for later use.
+2.loadFromFile(filename)--load a hash table previously stored in the input file
 
 ### validating assembly code.cpp
 #### class opcodefile
